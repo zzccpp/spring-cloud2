@@ -1,0 +1,15 @@
+#端口号
+server:
+  port: 8002
+
+#eureka基本信息
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://127.0.0.1:8100/eureka
+#定义系统名称
+spring:
+  application:
+    name: sys-order
